@@ -80,3 +80,9 @@ console.log(result);
 
 // user prompt: console.log(prompt("Hello User"));
 // --------------------------------------------------------------------
+
+function evenOrOdd(num) {
+  return num % 2 == 0 ? true : false;
+}
+
+console.log(evenOrOdd());
